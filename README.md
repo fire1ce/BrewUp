@@ -4,9 +4,9 @@ Brew - Update &amp; Backup
 
 ## Installion
 
-from the project foler run
-
 ```bash
+cd /Users/${USER}/Projects/
+git clone git@github.com:fire1ce/brewup.git
 ln -s ${PWD}/brewup /usr/local/bin
 ```
 
