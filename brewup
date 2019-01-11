@@ -1,6 +1,8 @@
 #!/bin/bash
-
 DATE=`date '+%Y%m%d.%H%M'`
+# Sets Working Dir as A Script Location
+cd "$(dirname ${BASH_SOURCE[0]})"
+
 
 # checks if mas, terminal-notifier are installed, if not will promt to install
 if [ -z $(which mas) ];
@@ -12,7 +14,6 @@ if [ -z $(which terminal-notifier) ];
 then
   brew install terminal-notifier
 fi
-
 
 # PopUp Notification
 terminal-notifier -title "BrewUP Is Working..." -message "Updates & Clean Up" -ignoreDnD
@@ -36,12 +37,14 @@ echo "Running AppStore Updates..." >&2
 mas outdated >&2
 mas upgrade >&2
 
-# Dumping File to Dropbox and pushing to Secret GIST
-#brew bundle dump --force --file=/Users/${USER}/Dropbox/SettingsConfigs/brewConfig/Brewfile
+# Creating Dump FIle
 brew bundle dump --force
+
+# Pushing to Repo
 git add .
 git commit -m "update_${DATE}"
 git push
+
 #echo "chnages can be found here: https://git.io/fpzuF"
 
 # PopUp Notification
