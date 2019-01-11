@@ -7,7 +7,7 @@ Brew - Update &amp; Backup
 ```bash
 cd /Users/${USER}/Projects/
 git clone git@github.com:fire1ce/brewup.git
-ln -s ${PWD}/brewup /usr/local/bin
+ln -s ${PWD}/brewup/brewup /usr/local/bin
 ```
 
 ## Usagae
