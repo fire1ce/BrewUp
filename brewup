@@ -37,12 +37,12 @@ mas outdated >&2
 mas upgrade >&2
 
 # Dumping File to Dropbox and pushing to Secret GIST
-brew bundle dump --force --file=/Users/${USER}/Dropbox/SettingsConfigs/brewConfig/Brewfile
-cd /Users/${USER}/Dropbox/SettingsConfigs/brewConfig
+#brew bundle dump --force --file=/Users/${USER}/Dropbox/SettingsConfigs/brewConfig/Brewfile
+brew bundle dump --force
 git add .
 git commit -m "update_${DATE}"
 git push
-echo "chnages can be found here: https://git.io/fpzuF"
+#echo "chnages can be found here: https://git.io/fpzuF"
 
 # PopUp Notification
 terminal-notifier -title "BrewUP Finished" -message "Update & Clean Up" -ignoreDnD
