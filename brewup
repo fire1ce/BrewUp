@@ -1,0 +1,49 @@
+#!/bin/bash
+
+DATE=`date '+%Y%m%d.%H%M'`
+
+# checks if mas, terminal-notifier are installed, if not will promt to install
+if [ -z $(which mas) ];
+then
+  brew install mas
+fi
+
+if [ -z $(which terminal-notifier) ];
+then
+  brew install terminal-notifier
+fi
+
+
+# PopUp Notification
+terminal-notifier -title "BrewUP Is Working..." -message "Updates & Clean Up" -ignoreDnD
+
+# Brew diagnotic
+echo "Running Brew Diagnotic..." >&2
+brew doctor >&2
+brew missing >&2
+echo -e "Brew Diagnotic Finished." >&2
+
+# Brew packages update and cleanup
+echo "Running Brew&Casks Updates..." >&2
+brew upgrade >&2
+brew cask outdated >&2
+brew cask upgrade >&2
+brew cleanup -s >&2
+echo "Finished Brew&Casks Updates" >&2
+
+# App Store Updates
+echo "Running AppStore Updates..." >&2
+mas outdated >&2
+mas upgrade >&2
+
+# Dumping File to Dropbox and pushing to Secret GIST
+brew bundle dump --force --file=/Users/${USER}/Dropbox/SettingsConfigs/brewConfig/Brewfile
+cd /Users/${USER}/Dropbox/SettingsConfigs/brewConfig
+git add .
+git commit -m "update_${DATE}"
+git push
+echo "chnages can be found here: https://git.io/fpzuF"
+
+# PopUp Notification
+terminal-notifier -title "BrewUP Finished" -message "Update & Clean Up" -ignoreDnD
+echo "All Updates & Cleanups Finnished"
