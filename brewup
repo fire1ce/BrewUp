@@ -37,6 +37,7 @@ echo "Running AppStore Updates..." >&2
 mas outdated >&2
 mas upgrade >&2
 
+cd "/Users/${USER}/Projects/brewup"
 # Creating Dump FIle
 brew bundle dump --force
 
