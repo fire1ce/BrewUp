@@ -26,6 +26,7 @@ echo -e "Brew Diagnotic Finished." >&2
 
 # Brew packages update and cleanup
 echo "Running Brew&Casks Updates..." >&2
+brew up >&2
 brew upgrade >&2
 brew cask outdated >&2
 brew cask upgrade >&2
