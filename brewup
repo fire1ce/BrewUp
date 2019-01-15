@@ -47,6 +47,7 @@ git add .
 git commit -m "update_${DATE}"
 git push
 
+echo "Brew File History Can: https://github.com/fire1ce/brewup/commits/master/Brewfile"
 #echo "chnages can be found here: https://git.io/fpzuF"
 
 # PopUp Notification
