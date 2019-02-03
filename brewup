@@ -16,7 +16,7 @@ then
 fi
 
 # PopUp Notification
-terminal-notifier -title "BrewUP Is Working..." -message "Updates & Clean Up" -ignoreDnD
+terminal-notifier -title "Brewing..." -message "Updates & Clean Ups" -ignoreDnD
 
 # Brew diagnotic
 echo "Running Brew Diagnotic..." >&2
@@ -51,5 +51,5 @@ echo "Brew File History Can: https://github.com/fire1ce/brewup/commits/master/Br
 #echo "chnages can be found here: https://git.io/fpzuF"
 
 # PopUp Notification
-terminal-notifier -title "BrewUP Finished" -message "Update & Clean Up" -ignoreDnD
+terminal-notifier -title "Finished Brewing" -message "" -ignoreDnD
 echo "All Updates & Cleanups Finnished"
