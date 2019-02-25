@@ -1,9 +1,16 @@
 tap "homebrew/bundle"
 tap "homebrew/cask"
+tap "homebrew/cask-fonts"
 tap "homebrew/core"
+brew "git"
 brew "mas"
+brew "nano"
 brew "rbenv"
 brew "terminal-notifier"
+brew "wget"
+brew "zsh"
+brew "zsh-autosuggestions"
+brew "zsh-syntax-highlighting"
 mas "Amphetamine", id: 937984704
 mas "AutoMounter", id: 1160435653
 mas "Blackmagic Disk Speed Test", id: 425264550
