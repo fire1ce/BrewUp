@@ -38,6 +38,7 @@ cask "cyberduck"
 cask "db-browser-for-sqlite"
 cask "deluge"
 cask "disk-inventory-x"
+cask "dotnet-sdk"
 cask "dropbox"
 cask "dropshare"
 cask "firefox"
@@ -70,13 +71,13 @@ cask "visual-studio-code"
 cask "vlc"
 cask "vmware-fusion"
 cask "wireshark"
-mas "Amphetamine", id: 937984704
-mas "AutoMounter", id: 1160435653
-mas "Blackmagic Disk Speed Test", id: 425264550
-mas "LanScan", id: 472226235
-mas "LastPass", id: 926036361
-mas "Magnet", id: 441258766
-mas "Microsoft Remote Desktop", id: 1295203466
-mas "ToothFairy", id: 1191449274
-mas "Xcode", id: 497799835
-mas "Yoink", id: 457622435
+mas "", id: 926036361
+mas "", id: 472226235
+mas "", id: 937984704
+mas "", id: 1191449274
+mas "", id: 497799835
+mas "", id: 425264550
+mas "", id: 1160435653
+mas "", id: 457622435
+mas "", id: 441258766
+mas "", id: 1295203466
