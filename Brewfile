@@ -71,13 +71,13 @@ cask "visual-studio-code"
 cask "vlc"
 cask "vmware-fusion"
 cask "wireshark"
-mas "", id: 926036361
-mas "", id: 472226235
-mas "", id: 937984704
-mas "", id: 1191449274
-mas "", id: 497799835
-mas "", id: 425264550
-mas "", id: 1160435653
-mas "", id: 457622435
-mas "", id: 441258766
-mas "", id: 1295203466
+mas "at.EternalStorms.Yoink", id: 457622435
+mas "com.apple.dt.Xcode", id: 497799835
+mas "com.blackmagic-design.DiskSpeedTest", id: 425264550
+mas "com.crowdcafe.windowmagnet", id: 441258766
+mas "com.if.Amphetamine", id: 937984704
+mas "com.iwaxx.LanScan", id: 472226235
+mas "com.lastpass.LastPass", id: 926036361
+mas "com.microsoft.rdc.macos", id: 1295203466
+mas "com.robinlu.mac.Tooth-Fairy", id: 1191449274
+mas "nz.co.pixeleyes.AutoMounter", id: 1160435653
