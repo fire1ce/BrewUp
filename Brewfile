@@ -84,4 +84,5 @@ mas "com.iwaxx.LanScan", id: 472226235
 mas "com.lastpass.LastPass", id: 926036361
 mas "com.microsoft.rdc.macos", id: 1295203466
 mas "com.robinlu.mac.Tooth-Fairy", id: 1191449274
+mas "im.allinone.messenger", id: 1456462087
 mas "nz.co.pixeleyes.AutoMounter", id: 1160435653
