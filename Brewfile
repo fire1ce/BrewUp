@@ -64,14 +64,14 @@ cask "visual-studio-code"
 cask "vlc"
 cask "vmware-fusion"
 cask "wireshark"
-mas "at.EternalStorms.Yoink", id: 457622435
-mas "com.apple.dt.Xcode", id: 497799835
-mas "com.blackmagic-design.DiskSpeedTest", id: 425264550
-mas "com.crowdcafe.windowmagnet", id: 441258766
-mas "com.if.Amphetamine", id: 937984704
-mas "com.iwaxx.LanScan", id: 472226235
-mas "com.lastpass.LastPass", id: 926036361
-mas "com.microsoft.rdc.macos", id: 1295203466
-mas "com.robinlu.mac.Tooth-Fairy", id: 1191449274
-mas "im.allinone.messenger", id: 1456462087
-mas "nz.co.pixeleyes.AutoMounter", id: 1160435653
+mas "All-in-One Messenger", id: 1456462087
+mas "Amphetamine", id: 937984704
+mas "AutoMounter", id: 1160435653
+mas "Disk Speed Test", id: 425264550
+mas "LanScan", id: 472226235
+mas "LastPass", id: 926036361
+mas "Magnet", id: 441258766
+mas "Microsoft Remote Desktop", id: 1295203466
+mas "ToothFairy", id: 1191449274
+mas "Xcode", id: 497799835
+mas "Yoink", id: 457622435
