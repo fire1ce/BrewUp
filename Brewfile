@@ -66,7 +66,6 @@ cask "visual-studio-code"
 cask "vlc"
 cask "vmware-fusion"
 cask "wireshark"
-mas "All-in-One Messenger", id: 1456462087
 mas "Amphetamine", id: 937984704
 mas "AutoMounter", id: 1160435653
 mas "Disk Speed Test", id: 425264550
