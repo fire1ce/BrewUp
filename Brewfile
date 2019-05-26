@@ -66,6 +66,7 @@ cask "visual-studio-code"
 cask "vlc"
 cask "vmware-fusion"
 cask "wireshark"
+cask "zenmap"
 mas "Amphetamine", id: 937984704
 mas "AutoMounter", id: 1160435653
 mas "Disk Speed Test", id: 425264550
