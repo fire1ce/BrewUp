@@ -43,7 +43,6 @@ cask "font-firacode-nerd-font"
 cask "franz"
 cask "google-chrome"
 cask "google-drive-file-stream"
-cask "gray"
 cask "insomnia"
 cask "intel-power-gadget"
 cask "istat-menus"
@@ -76,5 +75,4 @@ mas "LastPass", id: 926036361
 mas "Magnet", id: 441258766
 mas "Microsoft Remote Desktop", id: 1295203466
 mas "ToothFairy", id: 1191449274
-mas "Xcode", id: 497799835
 mas "Yoink", id: 457622435
