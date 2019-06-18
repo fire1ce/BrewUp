@@ -11,7 +11,7 @@ brew "hashcat"
 brew "htop"
 brew "iperf3"
 brew "mas"
-brew "nano"
+brew "nano", link: false
 brew "nmap"
 brew "node"
 brew "python"
