@@ -82,7 +82,6 @@ mas "Disk Speed Test", id: 425264550
 mas "LanScan", id: 472226235
 mas "LastPass", id: 926036361
 mas "Magnet", id: 441258766
-mas "SynoTool", id: 1153432021
 mas "ToothFairy", id: 1191449274
 mas "Xcode", id: 497799835
 mas "Yoink", id: 457622435
