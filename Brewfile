@@ -84,5 +84,6 @@ mas "LanScan", id: 472226235
 mas "LastPass", id: 926036361
 mas "Magnet", id: 441258766
 mas "ToothFairy", id: 1191449274
+mas "TweetDeck", id: 485812721
 mas "Xcode", id: 497799835
 mas "Yoink", id: 457622435
