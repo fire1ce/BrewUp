@@ -38,7 +38,6 @@ cask "balenaetcher"
 cask "balsamiq-mockups"
 cask "bartender"
 cask "cyberduck"
-cask "db-browser-for-sqlite"
 cask "disk-inventory-x"
 cask "docker"
 cask "dropbox"
@@ -78,13 +77,3 @@ cask "vmware-fusion"
 cask "vmware-horizon-client"
 cask "wireshark"
 cask "zoomus"
-mas "Amphetamine", id: 937984704
-mas "AutoMounter", id: 1160435653
-mas "Disk Speed Test", id: 425264550
-mas "LanScan", id: 472226235
-mas "LastPass", id: 926036361
-mas "Magnet", id: 441258766
-mas "ToothFairy", id: 1191449274
-mas "TweetDeck", id: 485812721
-mas "Xcode", id: 497799835
-mas "Yoink", id: 457622435
