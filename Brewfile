@@ -75,6 +75,7 @@ cask "tunnelblick"
 cask "visual-studio-code"
 cask "vlc"
 cask "vmware-fusion"
+cask "vmware-horizon-client"
 cask "wireshark"
 cask "zoomus"
 mas "Amphetamine", id: 937984704
