@@ -78,7 +78,6 @@ cask "vmware-horizon-client"
 cask "wireshark"
 cask "zoomus"
 mas "Amphetamine", id: 937984704
-mas "ApolloOne", id: 1044484672
 mas "AutoMounter", id: 1160435653
 mas "Disk Speed Test", id: 425264550
 mas "LanScan", id: 472226235
