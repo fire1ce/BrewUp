@@ -68,6 +68,7 @@ cask "sdformatter"
 cask "skype"
 cask "snagit"
 cask "spotify"
+cask "station"
 cask "synology-drive"
 cask "timemachineeditor"
 cask "tor-browser"
@@ -86,6 +87,5 @@ mas "LastPass", id: 926036361
 mas "Magnet", id: 441258766
 mas "Microsoft Remote Desktop", id: 1295203466
 mas "ToothFairy", id: 1191449274
-mas "TweetDeck", id: 485812721
 mas "Xcode", id: 497799835
 mas "Yoink", id: 457622435
