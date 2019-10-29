@@ -40,14 +40,12 @@ cask "balsamiq-mockups"
 cask "bartender"
 cask "cyberduck"
 cask "disk-inventory-x"
-cask "docker"
 cask "dropbox"
 cask "dropshare"
 cask "firefox"
 cask "folx"
 cask "font-awesome-terminal-fonts"
 cask "font-firacode-nerd-font"
-cask "franz"
 cask "google-chrome"
 cask "google-drive-file-stream"
 cask "insomnia"
@@ -58,6 +56,7 @@ cask "java"
 cask "karabiner-elements"
 cask "keka"
 cask "kekadefaultapp"
+cask "league-of-legends"
 cask "macmediakeyforwarder"
 cask "macupdater"
 cask "micro-snitch"
@@ -78,9 +77,9 @@ cask "vlc"
 cask "vmware-fusion"
 cask "vmware-horizon-client"
 cask "wireshark"
-cask "zoomus"
 mas "Amphetamine", id: 937984704
 mas "AutoMounter", id: 1160435653
+mas "AutoMute", id: 1118136179
 mas "Disk Speed Test", id: 425264550
 mas "LanScan", id: 472226235
 mas "LastPass", id: 926036361
