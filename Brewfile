@@ -81,6 +81,7 @@ mas "Amphetamine", id: 937984704
 mas "AutoMounter", id: 1160435653
 mas "AutoMute", id: 1118136179
 mas "Disk Speed Test", id: 425264550
+mas "Download Shuttle", id: 847809913
 mas "LanScan", id: 472226235
 mas "LastPass", id: 926036361
 mas "Magnet", id: 441258766
