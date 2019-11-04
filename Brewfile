@@ -64,6 +64,7 @@ cask "micro-snitch"
 cask "microsoft-office"
 cask "nordvpn"
 cask "paragon-ntfs"
+cask "rambox"
 cask "sdformatter"
 cask "skype"
 cask "snagit"
@@ -76,7 +77,6 @@ cask "vlc"
 cask "vmware-fusion"
 cask "vmware-horizon-client"
 cask "wireshark"
-mas "All-in-One Messenger", id: 1456462087
 mas "Amphetamine", id: 937984704
 mas "AutoMounter", id: 1160435653
 mas "AutoMute", id: 1118136179
