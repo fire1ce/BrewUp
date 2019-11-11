@@ -6,7 +6,7 @@ Brew - Update &amp; Backup
 
 ```bash
 git clone git@github.com:fire1ce/brewup.git
-ln -s ${PWD}/brewup/brewup.sh /usr/local/bin
+ln -s ${PWD}/brewup/brewup.sh /usr/local/bin/brewup
 source ~/.zshrc
 ```
 
