@@ -50,7 +50,7 @@ mas outdated 2>&1
 mas upgrade 2>&1
 
 # Creating Dump File with hostname 
-brew bundle dump --force --file="./${brewFileName}" 2>&1
+brew bundle dump --force --file="./${brewFileName}"
 
 # Pushing to Repo
 git add . 2>&1
