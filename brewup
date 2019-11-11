@@ -2,7 +2,7 @@
 DATE=`date '+%Y%m%d.%H%M'`
 red=`tput setaf 1`
 green=`tput setaf 2`
-cyan=`tput setaf 6`
+yellow=`tput setaf 3`
 reset=`tput sgr0`
 
 # Sets Working Dir as A Script Location
@@ -24,13 +24,13 @@ fi
 terminal-notifier -title "Brewing..." -message "Updates & Clean Ups" -ignoreDnD
 
 # Brew diagnotic
-echo "${cyan} Running Brew Diagnotic... ${reset}"
+echo "${yellow} Running Brew Diagnotic... ${reset}"
 brew doctor 2>&1
 brew missing 2>&1
 echo -e "${green} Brew Diagnotic Finished. ${reset}" 
 
 # Brew packages update and cleanup
-echo "${cyan} Running Brew&Casks Updates... ${reset}" 
+echo "${yellow} Running Brew&Casks Updates... ${reset}" 
 brew update 2>&1
 brew upgrade 2>&1
 brew cask outdated 2>&1
