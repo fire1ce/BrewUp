@@ -6,16 +6,12 @@ green=`tput setaf 2`
 yellow=`tput setaf 3`
 reset=`tput sgr0`
 
-
+# Sets Working Dir as Real A Script Location
 if [ -z $(which realpath) ];
 then
   brew install coreutils
 fi
 cd $(dirname "$(realpath "$0")")
-
-# Sets Working Dir as Real A Script Location
-# cd "$(dirname ${BASH_SOURCE[0]})"
-# cd "$(dirname "$0")"
 
 # checks if mas, terminal-notifier are installed, if not will promt to install
 if [ -z $(which mas) ];
@@ -51,9 +47,8 @@ echo "${green}==>${reset} Running AppStore Updates..."
 mas outdated 2>&1
 mas upgrade 2>&1
 
-# cd ${scriptPath}
-# Creating Dump FIle
-brew bundle dump --force 2>&1
+# Creating Dump File with hostname 
+brew bundle dump --force --file="./Brewfile.${HOSTNAME}" 2>&1
 
 # Pushing to Repo
 git add . 2>&1
