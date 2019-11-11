@@ -26,6 +26,8 @@ then
   brew install terminal-notifier
 fi
 
+git pull 
+
 # PopUp Notification
 terminal-notifier -title "Brewing..." -message "Updates & Clean Ups" -ignoreDnD
 
