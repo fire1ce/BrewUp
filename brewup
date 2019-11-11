@@ -2,6 +2,7 @@
 DATE=`date '+%Y%m%d.%H%M'`
 red=`tput setaf 1`
 green=`tput setaf 2`
+cyan=`tput setaf 6`
 reset=`tput sgr0`
 
 # Sets Working Dir as A Script Location
@@ -23,37 +24,37 @@ fi
 terminal-notifier -title "Brewing..." -message "Updates & Clean Ups" -ignoreDnD
 
 # Brew diagnotic
-echo "${red} Running Brew Diagnotic... ${reset}"
+echo "${cyan} Running Brew Diagnotic... ${reset}"
 brew doctor 2>&1
 brew missing 2>&1
-echo -e "Brew Diagnotic Finished." 
+echo -e "${green} Brew Diagnotic Finished. ${reset}" 
 
 # Brew packages update and cleanup
-echo "Running Brew&Casks Updates..." 
+echo "${cyan} Running Brew&Casks Updates... ${reset}" 
 brew update 2>&1
 brew upgrade 2>&1
 brew cask outdated 2>&1
 brew cask upgrade 2>&1
 brew cleanup -s 2>&1
-echo "Finished Brew&Casks Updates" 
+echo "${green} Finished Brew&Casks Updates ${reset}" 
 
 # App Store Updates
-echo "Running AppStore Updates..." >&2
-mas outdated >&2
-mas upgrade >&2
+echo "${green} Running AppStore Updates... ${reset}"
+mas outdated 2>&1
+mas upgrade 2>&1
 
 cd "/Users/${USER}/Projects/brewup"
 # Creating Dump FIle
-brew bundle dump --force
+brew bundle dump --force 2>&1
 
 # Pushing to Repo
-git add .
-git commit -m "update_${DATE}"
-git push
+git add . 2>&1
+git commit -m "update_${DATE}" 2>&1
+git push 2>&1
 
-echo "Brew File History Can: https://github.com/fire1ce/brewup/commits/master/Brewfile"
+echo "${green} Brew File History Can: https://github.com/fire1ce/brewup/commits/master/Brewfile ${reset}"
 #echo "chnages can be found here: https://git.io/fpzuF"
 
 # PopUp Notification
-terminal-notifier -title "Finished Brewing" -message "" -ignoreDnD
-echo "All Updates & Cleanups Finnished"
+terminal-notifier -title "${green} Finished Brewing ${reset}" -message "" -ignoreDnD
+echo "${green} All Updates & Cleanups Finnished  ${reset}"
