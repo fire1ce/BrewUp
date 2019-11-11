@@ -1,18 +1,26 @@
-# brewup
+# Brewup
 
 Brew - Update &amp; Backup
 
-## Installion
+## Installing
 
 ```bash
-cd /Users/${USER}/Projects/
 git clone git@github.com:fire1ce/brewup.git
-ln -s ${PWD}/brewup/brewup /usr/local/bin
+ln -s ${PWD}/brewup/brewup.sh /usr/local/bin
 source ~/.zshrc
 ```
 
-## Usagae
+## Usage
+
+Update & Backup
 
 ```bash
 brewup
+```
+
+Install from brewFile
+
+```bash
+cd to __brewFile__ location
+brew bundle install --file=<brewFile name>
 ```
