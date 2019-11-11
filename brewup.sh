@@ -4,7 +4,9 @@ DATE=`date '+%Y%m%d.%H%M'`
 red=`tput setaf 1`
 green=`tput setaf 2`
 yellow=`tput setaf 3`
+blue=`tput setaf 4`
 reset=`tput sgr0`
+brewFileName="Brewfile.${HOSTNAME}"
 
 # Sets Working Dir as Real A Script Location
 if [ -z $(which realpath) ];
@@ -48,14 +50,14 @@ mas outdated 2>&1
 mas upgrade 2>&1
 
 # Creating Dump File with hostname 
-brew bundle dump --force --file="./Brewfile.${HOSTNAME}" 2>&1
+brew bundle dump --force --file="./${brewFileName}" 2>&1
 
 # Pushing to Repo
 git add . 2>&1
 git commit -m "update_${DATE}" 2>&1
 git push 2>&1
 
-echo "${yellow}==>${reset} Brew File History Can: https://github.com/fire1ce/brewup/commits/master/Brewfile"
+echo "${yellow}==>${reset} Brew File History Can: https://github.com/fire1ce/brewup/commits/master/${brewFileName}"
 #echo "chnages can be found here: https://git.io/fpzuF"
 
 # PopUp Notification
