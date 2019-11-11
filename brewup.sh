@@ -1,14 +1,21 @@
 #!/bin/bash
+
 DATE=`date '+%Y%m%d.%H%M'`
 red=`tput setaf 1`
 green=`tput setaf 2`
 yellow=`tput setaf 3`
 reset=`tput sgr0`
-scriptPath="$( cd "$(dirname "$0")" ; pwd -P )"
 
-# Sets Working Dir as A Script Location
-cd "$(dirname ${BASH_SOURCE[0]})"
 
+if [ -z $(which realpath) ];
+then
+  brew install coreutils
+fi
+cd $(dirname "$(realpath "$0")")
+
+# Sets Working Dir as Real A Script Location
+# cd "$(dirname ${BASH_SOURCE[0]})"
+# cd "$(dirname "$0")"
 
 # checks if mas, terminal-notifier are installed, if not will promt to install
 if [ -z $(which mas) ];
