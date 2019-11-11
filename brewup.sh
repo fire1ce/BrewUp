@@ -6,7 +6,7 @@ green=`tput setaf 2`
 yellow=`tput setaf 3`
 blue=`tput setaf 4`
 reset=`tput sgr0`
-brewFileName="brewFile.${HOSTNAME}"
+brewFileName="BrewFile.${HOSTNAME}"
 
 # Sets Working Dir as Real A Script Location
 if [ -z $(which realpath) ];
@@ -57,7 +57,7 @@ git add . 2>&1
 git commit -m "update_${DATE}" 2>&1
 git push 2>&1
 
-echo "${yellow}==>${reset} Brew File History Can: https://github.com/fire1ce/brewup/commits/master/${brewFileName}"
+echo "${yellow}==>${reset} Brew File History Can: ${blue}https://github.com/fire1ce/brewup/commits/master/${brewFileName}${reset}"
 #echo "chnages can be found here: https://git.io/fpzuF"
 
 # PopUp Notification
