@@ -44,7 +44,7 @@ Copy the url of your new created __Fork__
 This will clone the repository and create a symlink for use in the terminal
 
 ```bash
-git clone <passed the copied url here>
+git clone <paste the copied url here>
 ln -s ${PWD}/brewup/brewup.sh /usr/local/bin/brewup
 ```
 
