@@ -1,5 +1,5 @@
 #!/bin/bash
-git pull
+git pull 2>&1
 
 DATE=`date '+%Y%m%d.%H%M'`
 red=`tput setaf 1`
@@ -26,8 +26,6 @@ if [ -z $(which terminal-notifier) ];
 then
     brew install terminal-notifier
 fi
-
-git pull
 
 # PopUp Notification
 terminal-notifier -title "Brewing..." -message "Updates & Clean Ups" -ignoreDnD
@@ -57,7 +55,7 @@ brew bundle dump --force --file="./${brewFileName}"
 
 # Pushing to Repo
 git add . 2>&1
-git commit -m "update_${DATE}" 2>&1
+git commit -m "${DATE}_update" 2>&1
 git push 2>&1
 
 echo "${yellow}==>${reset} Brew File History Can: ${blue}https://github.com/fire1ce/brewup/commits/master/${brewFileName}${reset}"
