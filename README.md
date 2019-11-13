@@ -8,7 +8,7 @@
 
 ## Description
 
-Brewup script is a Bash script that uses [Homebrew The missing package manager for macOS](https://brew.sh/) as it's base.
+Brewup script is a Bash script that uses [Homebrew - The Missing Package Manager for macOS](https://brew.sh/) as it's base.
 Brewup uses GitHub as a "backup" of a config file which contains all installed Taps, Formulas, Casks and App Store Apps at your macOS. It also allows the use of __Github__ main function of retaining changes so you can always look up for the package that were installed sometime ago and you just forgot what is was exactly.
 It's soul propose is cheek for "Homebrew" to run
 
