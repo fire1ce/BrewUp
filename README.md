@@ -5,7 +5,10 @@
 [![Contribution is Welcome](https://img.shields.io/badge/Contribution%20Is-Welcomed-brightgreen)](https://github.com/fire1ce/BrewUp/blob/master/brewup.sh)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://mit-license.org/)
 
-<img src="https://w.3os.org/3os/brewup/Cover.jpg" width=400>
+<p align="center">
+    <img src="https://w.3os.org/3os/brewup/Cover.jpg" width=500>
+</p>
+
 
 ## Description
 
