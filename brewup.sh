@@ -1,5 +1,4 @@
 #!/bin/bash
-git pull 2>&1
 
 DATE=`date '+%Y%m%d.%H%M'`
 red=`tput setaf 1`
@@ -15,6 +14,8 @@ then
     brew install coreutils
 fi
 cd $(dirname "$(realpath "$0")")
+
+git pull 2>&1
 
 # checks if mas, terminal-notifier are installed, if not will promt to install
 if [ -z $(which mas) ];
