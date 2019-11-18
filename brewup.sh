@@ -59,8 +59,6 @@ git add . 2>&1
 git commit -m "${DATE}_update" 2>&1
 git push 2>&1
 
-echo "${yellow}==>${reset} Brew File History Can: ${blue}https://github.com/fire1ce/brewup/commits/master/${brewFileName}${reset}"
-#echo "chnages can be found here: https://git.io/fpzuF"
 
 # PopUp Notification
 terminal-notifier -title "Finished Brewing" -message "" -ignoreDnD
