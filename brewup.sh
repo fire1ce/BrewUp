@@ -23,13 +23,13 @@ then
     brew install mas
 fi
 
-if [ -z $(which terminal-notifier) ];
-then
-    brew install terminal-notifier
-fi
+# if [ -z $(which terminal-notifier) ];
+# then
+#     brew install terminal-notifier
+# fi
 
 # PopUp Notification
-terminal-notifier -title "Brewing..." -message "Updates & Clean Ups" -ignoreDnD
+# terminal-notifier -title "Brewing..." -message "Updates & Clean Ups" -ignoreDnD
 
 # Brew Diagnotic
 echo "${yellow}==>${reset} Running Brew Diagnotic..."
@@ -61,5 +61,5 @@ git push 2>&1
 
 
 # PopUp Notification
-terminal-notifier -title "Finished Brewing" -message "" -ignoreDnD
+# terminal-notifier -title "Finished Brewing" -message "" -ignoreDnD
 echo "${green}==>${reset} All Updates & Cleanups Finnished"
