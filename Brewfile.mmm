@@ -1,5 +1,6 @@
 tap "homebrew/bundle"
 tap "homebrew/cask"
+tap "homebrew/cask-drivers"
 tap "homebrew/cask-fonts"
 tap "homebrew/core"
 brew "coreutils"
@@ -16,12 +17,10 @@ brew "zsh"
 brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 cask "alfred"
+cask "cursorcerer"
 cask "font-firacode-nerd-font"
 cask "google-chrome"
 cask "intel-power-gadget"
 cask "istat-menus"
 cask "iterm2"
-mas "Amphetamine", id: 937984704
-mas "Blackmagic Disk Speed Test", id: 425264550
-mas "Magnet", id: 441258766
-mas "Silent Start", id: 905747757
+cask "logitech-myharmony"
