@@ -21,3 +21,7 @@ cask "google-chrome"
 cask "intel-power-gadget"
 cask "istat-menus"
 cask "iterm2"
+mas "Amphetamine", id: 937984704
+mas "Blackmagic Disk Speed Test", id: 425264550
+mas "Magnet", id: 441258766
+mas "Silent Start", id: 905747757
