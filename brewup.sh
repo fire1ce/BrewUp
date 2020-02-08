@@ -1,16 +1,15 @@
 #!/bin/bash
 
-DATE=`date '+%Y%m%d.%H%M'`
-red=`tput setaf 1`
-green=`tput setaf 2`
-yellow=`tput setaf 3`
-blue=`tput setaf 4`
-reset=`tput sgr0`
+DATE=$(date '+%Y%m%d.%H%M')
+red=$(tput setaf 1)
+green=$(tput setaf 2)
+yellow=$(tput setaf 3)
+blue=$(tput setaf 4)
+reset=$(tput sgr0)
 brewFileName="Brewfile.${HOSTNAME}"
 
 # Sets Working Dir as Real A Script Location
-if [ -z $(which realpath) ];
-then
+if [ -z $(which realpath) ]; then
     brew install coreutils
 fi
 cd $(dirname "$(realpath "$0")")
@@ -18,18 +17,9 @@ cd $(dirname "$(realpath "$0")")
 git pull 2>&1
 
 # checks if mas, terminal-notifier are installed, if not will promt to install
-if [ -z $(which mas) ];
-then
+if [ -z $(which mas) ]; then
     brew install mas
 fi
-
-# if [ -z $(which terminal-notifier) ];
-# then
-#     brew install terminal-notifier
-# fi
-
-# PopUp Notification
-# terminal-notifier -title "Brewing..." -message "Updates & Clean Ups" -ignoreDnD
 
 # Brew Diagnotic
 echo "${yellow}==>${reset} Running Brew Diagnotic..."
@@ -59,7 +49,4 @@ git add . 2>&1
 git commit -m "${DATE}_update" 2>&1
 git push 2>&1
 
-
-# PopUp Notification
-# terminal-notifier -title "Finished Brewing" -message "" -ignoreDnD
 echo "${green}==>${reset} All Updates & Cleanups Finnished"
