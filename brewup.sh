@@ -1,5 +1,4 @@
 #!/bin/bash
-
 DATE=$(date '+%Y%m%d.%H%M')
 red=$(tput setaf 1)
 green=$(tput setaf 2)
