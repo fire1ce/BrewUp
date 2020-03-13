@@ -28,6 +28,8 @@ cask "intel-power-gadget"
 cask "istat-menus"
 cask "iterm2"
 cask "logitech-myharmony"
+cask "macupdater"
+cask "teamviewer"
 mas "Amphetamine", id: 937984704
 mas "Blackmagic Disk Speed Test", id: 425264550
 mas "Magnet", id: 441258766
