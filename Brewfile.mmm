@@ -18,7 +18,6 @@ brew "wget"
 brew "zsh"
 brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
-cask "alfred"
 cask "cursorcerer"
 cask "font-firacode-nerd-font"
 cask "google-chrome"
@@ -28,6 +27,4 @@ cask "iterm2"
 cask "macupdater"
 cask "teamviewer"
 mas "Amphetamine", id: 937984704
-mas "Blackmagic Disk Speed Test", id: 425264550
 mas "Magnet", id: 441258766
-mas "Silent Start", id: 905747757
