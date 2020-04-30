@@ -1,4 +1,12 @@
 #!/bin/bash
+brew= if which pyenv >/dev/null 2>&1; then
+  # assumes default location of brew in `/usr/local/bin/brew`
+  /usr/bin/env PATH="${PATH//$(pyenv root)\/shims:/}" /usr/local/bin/brew "$@"
+else
+  /usr/local/bin/brew "$@"
+fi
+
+which brew
 
 DATE=$(date '+%Y%m%d.%H%M')
 red=$(tput setaf 1)
