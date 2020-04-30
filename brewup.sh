@@ -1,4 +1,4 @@
-#!/usr/local/bin/zsh
+#!/bin/bash
 
 DATE=$(date '+%Y%m%d.%H%M')
 red=$(tput setaf 1)
