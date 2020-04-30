@@ -1,12 +1,4 @@
 #!/bin/bash
-brew= if which pyenv >/dev/null 2>&1; then
-  # assumes default location of brew in `/usr/local/bin/brew`
-  /usr/bin/env PATH="${PATH//$(pyenv root)\/shims:/}" /usr/local/bin/brew "$@"
-else
-  /usr/local/bin/brew "$@"
-fi
-
-which brew
 
 DATE=$(date '+%Y%m%d.%H%M')
 red=$(tput setaf 1)
@@ -18,7 +10,7 @@ brewFileName="Brewfile.${HOSTNAME}"
 
 # Sets Working Dir as Real A Script Location
 if [ -z $(which realpath) ]; then
-    brew install coreutils
+  brew install coreutils
 fi
 cd $(dirname "$(realpath "$0")")
 
@@ -26,7 +18,7 @@ git pull 2>&1
 
 # checks if mas, terminal-notifier are installed, if not will promt to install
 if [ -z $(which mas) ]; then
-    brew install mas
+  brew install mas
 fi
 
 # Brew Diagnotic
