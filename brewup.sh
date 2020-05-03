@@ -4,8 +4,6 @@ PATH="/usr/local/bin:/usr/local/sbin:/Users/${USER}/.local/bin:/usr/bin:/usr/sbi
 ## Fix for brew doctor warnings if using pyenv
 if which pyenv >/dev/null 2>&1; then
   brew='env PATH=${PATH//$(pyenv root)\/shims:/} brew'
-else
-  brew='/usr/local/bin/brew "$@"'
 fi
 
 DATE=$(date '+%Y%m%d.%H%M')
