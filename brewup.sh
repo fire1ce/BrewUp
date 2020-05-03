@@ -1,4 +1,11 @@
 #!/bin/bash
+PATH="/usr/local/bin:/usr/local/sbin:/Users/${USER}/.local/bin:/usr/bin:/usr/sbin:/bin:/sbin"
+
+if which pyenv >/dev/null 2>&1; then
+  brew='env PATH=${PATH//$(pyenv root)\/shims:/} brew'
+else
+  brew='/usr/local/bin/brew "$@"'
+fi
 
 DATE=$(date '+%Y%m%d.%H%M')
 red=$(tput setaf 1)

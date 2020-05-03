@@ -1,14 +1,19 @@
 #!/bin/bash
 # check if pyenv is available
 # edit: fixed redirect issue in earlier version
+
+PATH="/usr/local/bin:/usr/local/sbin:/Users/${USER}/.local/bin:/usr/bin:/usr/sbin:/bin:/sbin"
+
 if which pyenv >/dev/null 2>&1; then
     # assumes default location of brew in `/usr/local/bin/brew`
-    /usr/bin/env PATH="${PATH//$(pyenv root)\/shims:/}" /usr/local/bin/brew "$@"
+    brew='env PATH=${PATH//$(pyenv root)\/shims:/} brew'
 else
-    /usr/local/bin/brew "$@"
+    brew='/usr/local/bin/brew "$@"'
 fi
 
-which ${BREW}
+# brew='env PATH=${PATH//$(pyenv root)\/shims:/} brew'
+echo ${brew}
+brew doctor
 
 DATE=$(date '+%Y%m%d.%H%M')
 red=$(tput setaf 1)
