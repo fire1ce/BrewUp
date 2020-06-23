@@ -91,6 +91,7 @@ cask "zoomus"
 mas "Amphetamine", id: 937984704
 mas "AutoMounter", id: 1160435653
 mas "AutoMute", id: 1118136179
+mas "Developer", id: 640199958
 mas "Disk Speed Test", id: 425264550
 mas "LanScan", id: 472226235
 mas "Magnet", id: 441258766
