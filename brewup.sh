@@ -37,8 +37,8 @@ echo -e "${green}==>${reset} Brew Diagnotic Finished."
 echo "${yellow}==>${reset} Running Brew&Casks Updates..."
 brew update 2>&1
 brew upgrade 2>&1
-brew cask outdated 2>&1
-brew cask upgrade 2>&1
+brew outdated --cask 2>&1
+brew upgrade --cask 2>&1
 brew cleanup -s 2>&1
 echo "${green}==>${reset} Finished Brew&Casks Updates"
 

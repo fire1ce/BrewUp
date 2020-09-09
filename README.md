@@ -49,7 +49,7 @@ This will clone the repository and create a symlink for use in the terminal
 
 ```bash
 git clone <paste the copied url here>
-ln -s ${PWD}/brewup/brewup.sh /usr/local/bin/brewup
+ln -s ${PWD}/BrewUp/brewup.sh /usr/local/bin/brewup
 ```
 
 ## Usage
