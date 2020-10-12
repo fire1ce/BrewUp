@@ -7,6 +7,7 @@ tap "homebrew/core"
 tap "proxmark/proxmark3"
 brew "coreutils"
 brew "curl"
+brew "gh"
 brew "git"
 brew "htop"
 brew "iperf3"
@@ -83,6 +84,7 @@ cask "zoomus"
 mas "Amphetamine", id: 937984704
 mas "AutoMute", id: 1118136179
 mas "LanScan", id: 472226235
+mas "Magnet", id: 441258766
 mas "Microsoft Remote Desktop", id: 1295203466
 mas "OTP Auth", id: 1471867429
 mas "ToothFairy", id: 1191449274
