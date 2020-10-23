@@ -75,7 +75,6 @@ cask "turbo-boost-switcher"
 cask "visual-studio-code"
 cask "vlc"
 cask "vmware-fusion"
-cask "wifi-explorer"
 cask "wireshark"
 cask "zoomus"
 mas "Amphetamine", id: 937984704
