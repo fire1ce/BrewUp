@@ -20,7 +20,7 @@ brew "libmagic"
 brew "mas"
 brew "nano"
 brew "nmap"
-brew "node"
+brew "node", link: false
 brew "openjdk"
 brew "pcre"
 brew "readline"
@@ -93,8 +93,8 @@ cask "wireshark"
 cask "zoomus"
 mas "Amphetamine", id: 937984704
 mas "AutoMute", id: 1118136179
+mas "com.iwaxx.LanScan", id: 472226235
 mas "Disk Speed Test", id: 425264550
-mas "LanScan", id: 472226235
 mas "Magnet", id: 441258766
 mas "Microsoft Remote Desktop", id: 1295203466
 mas "OTP Auth", id: 1471867429
