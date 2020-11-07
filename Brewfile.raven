@@ -20,7 +20,7 @@ brew "libmagic"
 brew "mas"
 brew "nano"
 brew "nmap"
-brew "node", link: false
+brew "node"
 brew "openjdk"
 brew "pcre"
 brew "readline"
