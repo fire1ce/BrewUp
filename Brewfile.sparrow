@@ -80,6 +80,7 @@ cask "wireshark"
 cask "zoomus"
 mas "Amphetamine", id: 937984704
 mas "AutoMute", id: 1118136179
+mas "Geekbench 5", id: 1478447657
 mas "LanScan", id: 472226235
 mas "Magnet", id: 441258766
 mas "Microsoft Remote Desktop", id: 1295203466
