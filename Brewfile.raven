@@ -83,12 +83,15 @@ cask "skype"
 cask "sound-control"
 cask "spotify"
 cask "synology-drive"
+cask "telegram-desktop"
 cask "tor-browser"
 cask "tunnelblick"
 cask "visual-studio-code"
 cask "vlc"
 cask "vmware-fusion"
+cask "whatsapp"
 cask "wireshark"
+cask "zoom"
 cask "zoomus"
 mas "Amphetamine", id: 937984704
 mas "AutoMute", id: 1118136179
@@ -96,6 +99,5 @@ mas "Disk Speed Test", id: 425264550
 mas "LanScan", id: 472226235
 mas "Magnet", id: 441258766
 mas "Microsoft Remote Desktop", id: 1295203466
-mas "OTP Auth", id: 1471867429
 mas "ToothFairy", id: 1191449274
 mas "Yoink", id: 457622435
