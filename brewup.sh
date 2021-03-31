@@ -22,11 +22,6 @@ cd $(dirname "$(realpath "$0")")
 
 git pull 2>&1
 
-# checks if mas, terminal-notifier are installed, if not will promt to install
-if [ -z $(which mas) ]; then
-  brew install mas
-fi
-
 # Brew Diagnotic
 echo "${yellow}==>${reset} Running Brew Diagnotic..."
 brew doctor 2>&1
