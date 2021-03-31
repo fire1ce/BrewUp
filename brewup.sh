@@ -8,7 +8,7 @@ fi
 
 # checks if mas, terminal-notifier are installed, if not will promt to install
 if [ -z $(which mas) ]; then
-  brew install mas 2>&1
+  brew install mas 2>/dev/null
 fi
 
 DATE=$(date '+%Y%m%d.%H%M')
