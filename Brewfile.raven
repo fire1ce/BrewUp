@@ -5,6 +5,7 @@ tap "homebrew/cask-fonts"
 tap "homebrew/core"
 tap "proxmark/proxmark3"
 brew "awscli"
+brew "blueutil"
 brew "coreutils"
 brew "curl"
 brew "git"
@@ -16,6 +17,8 @@ brew "nano"
 brew "nmap"
 brew "node"
 brew "openjdk"
+brew "pyenv"
+brew "pyenv-virtualenv"
 brew "rbenv"
 brew "rsync"
 brew "speedtest-cli"
@@ -83,3 +86,4 @@ mas "LanScan", id: 472226235
 mas "Magnet", id: 441258766
 mas "Microsoft Remote Desktop", id: 1295203466
 mas "OTP Auth", id: 1471867429
+mas "Yoink", id: 457622435
