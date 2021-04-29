@@ -1,5 +1,5 @@
 #!/bin/bash
-PATH="/usr/local/bin:/usr/local/sbin:/Users/${USER}/.local/bin:/usr/bin:/usr/sbin:/bin:/sbin"
+PATH="/usr/local/bin:/usr/local/sbin:/Users/${USER}/.local/bin:/usr/bin:/usr/sbin:/bin:/sbin:/opt/homebrew/bin/brew"
 
 ## Fix for brew doctor warnings if using pyenv
 if which pyenv >/dev/null 2>&1; then
