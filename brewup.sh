@@ -1,5 +1,5 @@
 #!/bin/bash
-export PATH="/usr/local/bin:/usr/local/sbin:/Users/${USER}/.local/bin:/usr/bin:/usr/sbin:/bin:/sbin:$PATH"
+PATH="/usr/local/bin:/usr/local/sbin:/Users/${USER}/.local/bin:/usr/bin:/usr/sbin:/bin:/sbin"
 export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:$PATH"
 
 ## Fix for brew doctor warnings if using pyenv
