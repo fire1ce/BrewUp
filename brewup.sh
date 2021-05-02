@@ -1,7 +1,7 @@
 #!/bin/bash
 PATH="/usr/local/bin:/usr/local/sbin:/Users/${USER}/.local/bin:/usr/bin:/usr/sbin:/bin:/sbin"
 
-## M1 Path Fix
+## M1 Brew PATH Fix
 if [ $(arch) = "arm64" ]; then
   export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:$PATH"
 fi
