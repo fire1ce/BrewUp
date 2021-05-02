@@ -1,13 +1,17 @@
 #!/bin/bash
 PATH="/usr/local/bin:/usr/local/sbin:/Users/${USER}/.local/bin:/usr/bin:/usr/sbin:/bin:/sbin"
-export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:$PATH"
+
+## M1 Path Fix
+if [ $(arch) = "arm64" ]; then
+  export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:$PATH"
+fi
 
 ## Fix for brew doctor warnings if using pyenv
 if which pyenv >/dev/null 2>&1; then
   brew='env PATH=${PATH//$(pyenv root)\/shims:/} brew'
 fi
 
-# checks if mas, terminal-notifier are installed, if not will promt to install
+## checks if mas, terminal-notifier are installed, if not will promt to install
 if [ -z $(which mas) ]; then
   brew install mas 2>/dev/null
 fi
@@ -20,7 +24,7 @@ blue=$(tput setaf 4)
 reset=$(tput sgr0)
 brewFileName="Brewfile.${HOSTNAME}"
 
-# Sets Working Dir as Real A Script Location
+## Sets Working Dir as Real A Script Location
 if [ -z $(which realpath) ]; then
   brew install coreutils
 fi
@@ -28,13 +32,13 @@ cd $(dirname "$(realpath "$0")")
 
 git pull 2>&1
 
-# Brew Diagnotic
+## Brew Diagnotic
 echo "${yellow}==>${reset} Running Brew Diagnotic..."
 brew doctor 2>&1
 brew missing 2>&1
 echo -e "${green}==>${reset} Brew Diagnotic Finished."
 
-# Brew packages update and cleanup
+## Brew packages update and cleanup
 echo "${yellow}==>${reset} Running Updates..."
 brew update 2>&1
 brew outdated 2>&1
@@ -42,10 +46,10 @@ brew upgrade 2>&1
 brew cleanup -s 2>&1
 echo "${green}==>${reset} Finished Updates"
 
-# Creating Dump File with hostname
+## Creating Dump File with hostname
 brew bundle dump --force --file="./${brewFileName}"
 
-# Pushing to Repo
+## Pushing to Repo
 git add . 2>&1
 git commit -m "${DATE}_update" 2>&1
 git push 2>&1
