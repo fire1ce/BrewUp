@@ -5,6 +5,8 @@ tap "homebrew/cask-fonts"
 tap "homebrew/core"
 tap "jabley/wrk2"
 tap "proxmark/proxmark3"
+brew "xz"
+brew "python@3.9"
 brew "awscli"
 brew "blueutil"
 brew "coreutils"
@@ -19,8 +21,6 @@ brew "nano"
 brew "nmap"
 brew "node"
 brew "openjdk"
-brew "pyenv"
-brew "pyenv-virtualenv"
 brew "rbenv"
 brew "rsync"
 brew "speedtest-cli"
@@ -82,14 +82,3 @@ cask "vlc"
 cask "whatsapp"
 cask "wireshark"
 cask "zoom"
-mas "Amphetamine", id: 937984704
-mas "AutoMute", id: 1118136179
-mas "Disk Speed Test", id: 425264550
-mas "Geekbench 5", id: 1478447657
-mas "iA Writer", id: 775737590
-mas "LanScan", id: 472226235
-mas "Magnet", id: 441258766
-mas "Microsoft Remote Desktop", id: 1295203466
-mas "OTP Auth", id: 1471867429
-mas "Xcode", id: 497799835
-mas "Yoink", id: 457622435
