@@ -142,6 +142,7 @@ cask "visual-studio-code"
 cask "vlc"
 cask "whatsapp"
 cask "wireshark"
+cask "zenmap"
 cask "zoom"
 mas "Amphetamine", id: 937984704
 mas "AutoMute", id: 1118136179
