@@ -144,6 +144,7 @@ cask "visual-studio-code"
 cask "vlc"
 cask "whatsapp"
 cask "wireshark"
+cask "xquartz"
 cask "zenmap"
 cask "zoom"
 mas "Amphetamine", id: 937984704
