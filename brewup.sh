@@ -32,11 +32,11 @@ cd $(dirname "$(realpath "$0")")
 
 git pull 2>&1
 
-## Brew Diagnotic
-echo "${yellow}==>${reset} Running Brew Diagnotic..."
+## Brew Diagnostic
+echo "${yellow}==>${reset} Running Brew Diagnostic..."
 brew doctor 2>&1
 brew missing 2>&1
-echo -e "${green}==>${reset} Brew Diagnotic Finished."
+echo -e "${green}==>${reset} Brew Diagnostic Finished."
 
 ## Brew packages update and cleanup
 echo "${yellow}==>${reset} Running Updates..."
@@ -54,4 +54,4 @@ git add . 2>&1
 git commit -m "${DATE}_update" 2>&1
 git push 2>&1
 
-echo "${green}==>${reset} All Updates & Cleanups Finnished"
+echo "${green}==>${reset} All Updates & Cleanups Finished"
