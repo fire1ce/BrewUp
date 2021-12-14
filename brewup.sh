@@ -54,4 +54,7 @@ git add . 2>&1
 git commit -m "${DATE}_update" 2>&1
 git push 2>&1
 
+mas upgrade
+softwareupdate -i
+
 echo "${green}==>${reset} All Updates & Cleanups Finished"
