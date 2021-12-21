@@ -22,8 +22,3 @@ cask "powershell"
 cask "spotify"
 cask "steam"
 cask "transmission"
-mas "AdGuard for Safari", id: 1440147259
-mas "G App Launcher", id: 1543803459
-mas "Pixelmator Pro", id: 1289583905
-mas "SponsorBlock for YouTube - Skip Sponsorships", id: 1573461917
-mas "Super Agent", id: 1568262835
