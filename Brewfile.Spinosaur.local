@@ -5,6 +5,9 @@ brew "coreutils"
 brew "git"
 brew "mas"
 brew "python@3.9"
+cask "android-platform-tools"
+cask "jellyfin"
+cask "mullvadvpn"
 cask "powershell"
 mas "AdGuard for Safari", id: 1440147259
 mas "G App Launcher", id: 1543803459
