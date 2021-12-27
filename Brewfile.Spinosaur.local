@@ -6,3 +6,9 @@ brew "git"
 brew "mas"
 brew "python@3.9"
 cask "powershell"
+mas "AdGuard for Safari", id: 1440147259
+mas "G App Launcher", id: 1543803459
+mas "Hush", id: 1544743900
+mas "Infuse", id: 1136220934
+mas "SponsorBlock for YouTube - Skip Sponsorships", id: 1573461917
+mas "Super Agent", id: 1568262835
