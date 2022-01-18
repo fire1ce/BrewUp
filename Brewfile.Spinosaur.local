@@ -1,5 +1,6 @@
 tap "homebrew/bundle"
 tap "homebrew/cask"
+tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "nativeos/i386-elf-toolchain"
 brew "cmake"
@@ -14,6 +15,7 @@ cask "android-platform-tools"
 cask "jellyfin"
 cask "mullvadvpn"
 cask "powershell"
+cask "wine-stable"
 mas "AdGuard for Safari", id: 1440147259
 mas "BetterSnapTool", id: 417375580
 mas "G App Launcher", id: 1543803459
