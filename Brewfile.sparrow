@@ -113,7 +113,6 @@ cask "font-awesome-terminal-fonts"
 cask "font-fira-code-nerd-font"
 cask "forticlient-vpn"
 cask "google-chrome"
-cask "google-drive"
 cask "insomnia"
 cask "istat-menus"
 cask "iterm2"
@@ -163,5 +162,6 @@ mas "LanScan", id: 472226235
 mas "Magnet", id: 441258766
 mas "Microsoft Remote Desktop", id: 1295203466
 mas "OTP Auth", id: 1471867429
+mas "WireGuard", id: 1451685025
 mas "Xcode", id: 497799835
 mas "Yoink", id: 457622435
