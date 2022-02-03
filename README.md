@@ -6,7 +6,7 @@
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://mit-license.org/)
 
 <p align="center">
-    <img src="https://w.3os.org/3os/brewup/Cover.jpg" width=500>
+    <img src="https://user-images.githubusercontent.com/16795594/152403554-eb859e26-8232-4759-ba27-f025069c6f83.jpg" width=500>
 </p>
 
 ## Description
@@ -38,14 +38,6 @@ It just runs few [Brew functionality](https://docs.brew.sh/) automatically:
 ## Installing
 
 __Fork__ the repository __don't clone__ it
-
-![how to fork](https://w.3os.org/3os/brewup/fork.jpg)
-
-Copy the url of your new created __Fork__
-
-![Copy the Url](https://w.3os.org/3os/brewup/clone.jpg)
-
-This will clone the repository and create a symlink for use in the terminal
 
 ```bash
 git clone <paste the copied url here>
@@ -91,4 +83,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 IN THE SOFTWARE.
-
