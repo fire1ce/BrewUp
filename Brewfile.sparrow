@@ -85,7 +85,7 @@ brew "rename"
 brew "xxhash"
 brew "rsync"
 brew "speedtest-cli"
-brew "supervisor"
+brew "supervisor", restart_service: true
 brew "telnet"
 brew "watch"
 brew "wget"
