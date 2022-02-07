@@ -5,15 +5,3 @@ brew "coreutils"
 brew "mas"
 brew "pyenv"
 brew "python@3.9"
-mas "AdGuard for Safari", id: 1440147259
-mas "Bitwarden", id: 1352778147
-mas "G App Launcher", id: 1543803459
-mas "Hush", id: 1544743900
-mas "Passepartout", id: 1433648537
-mas "Pixelmator Pro", id: 1289583905
-mas "Social Fixer for Facebook", id: 1562017526
-mas "Speedtest", id: 1153157709
-mas "SponsorBlock for YouTube - Skip Sponsorships", id: 1573461917
-mas "Super Agent", id: 1568262835
-mas "The Unarchiver", id: 425424353
-mas "Tweaks for Reddit", id: 1524828965
