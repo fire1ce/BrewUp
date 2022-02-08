@@ -5,6 +5,7 @@ brew "coreutils"
 brew "mas"
 brew "pyenv"
 brew "python@3.9"
+cask "android-platform-tools"
 mas "AdGuard for Safari", id: 1440147259
 mas "Bitwarden", id: 1352778147
 mas "G App Launcher", id: 1543803459
