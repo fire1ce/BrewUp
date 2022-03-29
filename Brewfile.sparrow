@@ -156,3 +156,15 @@ cask "wireshark"
 cask "xquartz"
 cask "zenmap"
 cask "zoom"
+mas "Amphetamine", id: 937984704
+mas "AutoMute", id: 1118136179
+mas "Disk Speed Test", id: 425264550
+mas "Geekbench 5", id: 1478447657
+mas "iA Writer", id: 775737590
+mas "LanScan", id: 472226235
+mas "Magnet", id: 441258766
+mas "Microsoft Remote Desktop", id: 1295203466
+mas "OTP Auth", id: 1471867429
+mas "WireGuard", id: 1451685025
+mas "Xcode", id: 497799835
+mas "Yoink", id: 457622435
