@@ -18,7 +18,7 @@ brew "xz"
 brew "python@3.9"
 brew "awscli"
 brew "bdw-gc"
-brew "berkeley-db"
+brew "berkeley-db", link: true
 brew "blueutil"
 brew "bpytop"
 brew "brotli"
