@@ -12,36 +12,36 @@
 ## Description
 
 Brewup script is a Bash script that uses [Homebrew - The Missing Package Manager for macOS](https://brew.sh/) as it's base.
-Brewup uses GitHub as a "backup" of a config file which contains all installed Taps, Formulas, Casks and App Store Apps at your macOS. It also allows the use of __Github__ main function of retaining changes so you can always look up for the package that were installed sometime ago and you just forgot what is was exactly.
+Brewup uses GitHub as a "backup" of a config file which contains all installed Taps, Formulas, Casks and App Store Apps at your macOS. It also allows the use of **Github** main function of retaining changes so you can always look up for the package that were installed sometime ago and you just forgot what is was exactly.
 
-__Visit as at [3os.org](https://3os.org) for more guides and tips for macOS__
+**Visit as at [3os.org](https://3os.org) for more guides and tips for macOS**
 
 ## What Brewup Actually Does
 
 It just runs few [Brew functionality](https://docs.brew.sh/) automatically:
 
-* brew doctor
-* brew missing
-* brew upgrade
-* brew cask upgrade
-* brew cleanup
-* App Store Updates
-* Creating Updated [Brewfile](https://github.com/Homebrew/homebrew-bundle)
-* Pushing changes to Git
+- brew doctor
+- brew missing
+- brew upgrade
+- brew cask upgrade
+- brew cleanup
+- App Store Updates
+- Creating Updated [Brewfile](https://github.com/Homebrew/homebrew-bundle)
+- Pushing changes to Git
 
 ## Requirements
 
-* [Homebrew The missing package manager for macOS](https://brew.sh/)
-* [git (with active account)](https://github.com/)
-* Mas, terminal-notifier, coreutils __(will be installed if missing at the first script execution)__
+- [Homebrew The missing package manager for macOS](https://brew.sh/)
+- [git (with active account)](https://github.com/)
+- Mas, terminal-notifier, coreutils **(will be installed if missing at the first script execution)**
 
 ## Installing
 
-__Fork__ the repository __don't clone__ it
+**Fork** the repository **don't clone** it
 
 ```bash
 git clone <paste the copied url here>
-ln -s ${PWD}/BrewUp/brewup.sh /usr/local/bin/brewup
+sudo ln -s ${PWD}/BrewUp/brewup.sh /usr/local/bin/brewup
 ```
 
 ## Usage
