@@ -37,18 +37,27 @@ It just runs few [Brew functionality](https://docs.brew.sh/) automatically:
 
 ## Installing
 
-**Fork** the repository **don't clone** it
+Use this repository as template, it will create a `Fork` for you and you can start using it.
 
-```bash
-git clone <paste the copied url here>
+```shell
+git clone <paste the your repo url here>
+```
+
+```shell
 sudo ln -s ${PWD}/BrewUp/brewup.sh /usr/local/bin/brewup
+```
+
+**Note: if `/usr/local/bin/` is missing create it with**
+
+```shell
+sudo mkdir /usr/local/bin/
 ```
 
 ## Usage
 
 just run from terminal:
 
-```bash
+```shell
 brewup
 ```
 
@@ -56,7 +65,7 @@ Install all apps from BrewFile:
 
 cd to local location you cloned your repository and run:
 
-```bash
+```shell
 brew bundle install --file=<BrewFile Name>
 ```
 
