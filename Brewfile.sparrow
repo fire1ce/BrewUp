@@ -73,6 +73,7 @@ cask "tor-browser"
 cask "torguard"
 cask "tunnelblick"
 cask "visual-studio-code"
+cask "whatsapp"
 cask "wireshark"
 cask "zoom"
 mas "Amphetamine", id: 937984704
