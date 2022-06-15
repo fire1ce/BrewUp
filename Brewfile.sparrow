@@ -19,6 +19,7 @@ brew "mas"
 brew "nano"
 brew "nmap"
 brew "node"
+brew "ossp-uuid"
 brew "rsync"
 brew "speedtest-cli"
 brew "telnet"
@@ -63,6 +64,7 @@ cask "moonlight"
 cask "ngrok"
 cask "obsidian"
 cask "openmtp"
+cask "parallels"
 cask "rambox"
 cask "raspberry-pi-imager"
 cask "scroll-reverser"
@@ -93,6 +95,5 @@ mas "Microsoft Remote Desktop", id: 1295203466
 mas "Microsoft Word", id: 462054704
 mas "OneDrive", id: 823766827
 mas "OTP Auth", id: 1471867429
-mas "Parallels Desktop", id: 1085114709
 mas "WireGuard", id: 1451685025
 mas "Yoink", id: 457622435
