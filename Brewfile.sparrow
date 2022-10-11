@@ -42,7 +42,6 @@ cask "balenaetcher"
 cask "burp-suite-professional"
 cask "checkra1n"
 cask "coolterm"
-cask "cpuinfo"
 cask "cyberduck"
 cask "discord"
 cask "disk-inventory-x"
@@ -57,7 +56,6 @@ cask "folx"
 cask "font-fira-code-nerd-font"
 cask "forticlient-vpn"
 cask "google-chrome"
-cask "gray"
 cask "hyperbackupexplorer"
 cask "insomnia"
 cask "istat-menus"
@@ -75,16 +73,13 @@ cask "obsidian"
 cask "openmtp"
 cask "parallels"
 cask "postman"
-cask "prusaslicer"
 cask "rambox"
 cask "raspberry-pi-imager"
 cask "scroll-reverser"
 cask "sdformatter"
 cask "snagit"
 cask "spotify"
-cask "superslicer"
 cask "syncthing"
-cask "telegram-desktop"
 cask "timche-gmail-desktop"
 cask "tor-browser"
 cask "torguard"
@@ -92,7 +87,6 @@ cask "tunnelbear"
 cask "tunnelblick"
 cask "ultimaker-cura"
 cask "visual-studio-code"
-cask "whatsapp"
 cask "wireshark"
 cask "zoom"
 mas "Amphetamine", id: 937984704
@@ -110,5 +104,7 @@ mas "Microsoft Remote Desktop", id: 1295203466
 mas "Microsoft Word", id: 462054704
 mas "OneDrive", id: 823766827
 mas "OTP Auth", id: 1471867429
+mas "Telegram", id: 747648890
+mas "WhatsApp", id: 1147396723
 mas "WireGuard", id: 1451685025
 mas "Yoink", id: 457622435
