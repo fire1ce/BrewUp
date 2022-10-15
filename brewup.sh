@@ -47,7 +47,6 @@ brew cleanup -s 2>&1
 echo "${green}==>${reset} Finished Updates"
 
 ## Mac Store Updates
-mas outdated 2>&1
 echo "${yellow}==>${reset} Running Mac Store Updates..."
 mas upgrade 2>&1
 echo "${green}==>${reset} Finished Mac Store Updates"
