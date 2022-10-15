@@ -11,7 +11,7 @@ brew "coreutils"
 brew "cask"
 brew "cowsay"
 brew "curl"
-brew "docker"
+brew "docker", link: false
 brew "docker-compose"
 brew "git"
 brew "htop"
