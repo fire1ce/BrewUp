@@ -86,6 +86,7 @@ cask "tunnelbear"
 cask "tunnelblick"
 cask "ultimaker-cura"
 cask "visual-studio-code"
+cask "vlc"
 cask "wireshark"
 cask "zoom"
 mas "Amphetamine", id: 937984704
