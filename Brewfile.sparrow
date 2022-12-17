@@ -16,7 +16,7 @@ brew "libffi"
 brew "cask"
 brew "cowsay"
 brew "curl"
-brew "docker", link: false
+brew "docker"
 brew "docker-compose"
 brew "git"
 brew "htop"
