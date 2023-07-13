@@ -110,6 +110,7 @@ cask "wireshark"
 cask "zoom"
 mas "1Password for Safari", id: 1569813296
 mas "Amphetamine", id: 937984704
+mas "Apple Configurator", id: 1037126344
 mas "AutoMute", id: 1118136179
 mas "Disk Speed Test", id: 425264550
 mas "Hidden Bar", id: 1452453066
