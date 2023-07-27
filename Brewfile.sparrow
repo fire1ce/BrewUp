@@ -61,7 +61,6 @@ cask "disk-inventory-x"
 cask "displaylink"
 cask "displaylink-login-extension"
 cask "dropshare"
-cask "elgato-stream-deck"
 cask "firefox"
 cask "folx"
 cask "font-fira-code-nerd-font"
@@ -115,6 +114,7 @@ mas "AutoMute", id: 1118136179
 mas "Disk Speed Test", id: 425264550
 mas "Hidden Bar", id: 1452453066
 mas "iA Writer", id: 775737590
+mas "IP Camera Viewer 2", id: 595565459
 mas "Keynote", id: 409183694
 mas "LanScan", id: 472226235
 mas "Letter Opener", id: 411897373
