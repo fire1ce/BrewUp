@@ -90,6 +90,7 @@ cask "powershell"
 cask "prusaslicer"
 cask "rambox"
 cask "raspberry-pi-imager"
+cask "redis-pro"
 cask "scroll-reverser"
 cask "sdformatter"
 cask "segger-jlink"
@@ -113,6 +114,7 @@ mas "1Password for Safari", id: 1569813296
 mas "Amphetamine", id: 937984704
 mas "Apple Configurator", id: 1037126344
 mas "AutoMute", id: 1118136179
+mas "Brother P-touch Editor", id: 1453365242
 mas "Disk Speed Test", id: 425264550
 mas "Hidden Bar", id: 1452453066
 mas "iA Writer", id: 775737590
