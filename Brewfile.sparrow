@@ -88,6 +88,7 @@ cask "obsidian"
 cask "onyx"
 cask "openmtp"
 cask "orcaslicer"
+cask "parsec"
 cask "powershell"
 cask "prusaslicer"
 cask "rambox"
@@ -133,6 +134,7 @@ mas "OneDrive", id: 823766827
 mas "OTP Auth", id: 1471867429
 mas "Telegram", id: 747648890
 mas "TestFlight", id: 899247664
+mas "WhatsApp", id: 1147396723
 mas "WireGuard", id: 1451685025
 mas "Yoink", id: 457622435
 vscode "adamhartford.vscode-base64"
