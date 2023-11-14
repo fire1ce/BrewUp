@@ -33,23 +33,23 @@ cd $(dirname "$(realpath "$0")")
 git pull 2>&1
 
 ## Brew Diagnotic
-echo "${yellow}==>${reset} Running Brew Diagnotic..."
+echo "${yellow}==>${reset} Running Brew Doctor diagnostics..."
 brew doctor 2>&1
 brew missing 2>&1
-echo -e "${green}==>${reset} Brew Diagnotic Finished."
+echo -e "${green}==>${reset} Brew Doctor diagnotic finished."
 
 ## Brew packages update and cleanup
-echo "${yellow}==>${reset} Running Updates..."
+echo "${yellow}==>${reset} Checking for brew updates..."
 brew update 2>&1
 brew outdated 2>&1
 brew upgrade 2>&1
 brew cleanup -s 2>&1
-echo "${green}==>${reset} Finished Updates"
+echo "${green}==>${reset} Finished brew updates"
 
 ## Mac Store Updates
-echo "${yellow}==>${reset} Running Mac Store Updates..."
+echo "${yellow}==>${reset} Checking macOS App Store updates..."
 mas upgrade 2>&1
-echo "${green}==>${reset} Finished Mac Store Updates"
+echo "${green}==>${reset} Finished macOS App Store updates"
 
 ## Creating Dump File with hostname
 brew bundle dump --force --file="./${brewFileName}"
@@ -59,4 +59,4 @@ git add . 2>&1
 git commit -m "${DATE}_update" 2>&1
 git push 2>&1
 
-echo "${green}==>${reset} All Updates & Cleanups Finnished"
+echo "${green}==>${reset} Finished updating brew and mas packages"
