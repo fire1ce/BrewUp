@@ -30,7 +30,7 @@ if [ -z $(which realpath) ]; then
 fi
 cd $(dirname "$(realpath "$0")")
 
-echo "${yellow} ==>${reset} Pulling latest changes from repo..."
+echo "${blue}==>${reset} Pulling latest changes from repo..."
 git pull 2>&1
 
 ## Brew Diagnotic
@@ -56,6 +56,7 @@ echo "${green}==>${reset} Finished macOS App Store updates"
 brew bundle dump --force --file="./${brewFileName}"
 
 ## Pushing to Repo
+echo "${blue}==>${reset} Pushing changes to repo..."
 git add . 2>&1
 git commit -m "${DATE}_update" 2>&1
 git push 2>&1
