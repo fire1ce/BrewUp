@@ -30,6 +30,7 @@ if [ -z $(which realpath) ]; then
 fi
 cd $(dirname "$(realpath "$0")")
 
+echo "${yellow} ==>${reset} Pulling latest changes from repo..."
 git pull 2>&1
 
 ## Brew Diagnotic
