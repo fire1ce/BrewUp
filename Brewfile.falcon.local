@@ -1,0 +1,13 @@
+tap "homebrew/bundle"
+brew "git"
+brew "mas"
+brew "wget"
+brew "zsh"
+cask "1password"
+cask "displaylink"
+cask "geekbench"
+cask "iterm2"
+cask "synology-drive"
+mas "1Password for Safari", id: 1569813296
+mas "AdGuard for Safari", id: 1440147259
+mas "WireGuard", id: 1451685025
