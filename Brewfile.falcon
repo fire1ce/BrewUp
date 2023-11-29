@@ -20,6 +20,7 @@ brew "node"
 brew "rsync"
 brew "telnet"
 brew "wget"
+brew "wifi-password"
 brew "zsh"
 brew "rfidresearchgroup/proxmark3/proxmark3", args: ["with-generic"]
 brew "teamookla/speedtest/speedtest"
