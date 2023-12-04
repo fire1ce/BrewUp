@@ -48,9 +48,10 @@ brew cleanup -s 2>&1
 echo "${green}==>${reset} Finished brew updates"
 
 ## Mac Store Updates
-echo "${yellow}==>${reset} Checking macOS App Store updates..."
-mas upgrade 2>&1
-echo "${green}==>${reset} Finished macOS App Store updates"
+## Disabled due to issues with mas
+# echo "${yellow}==>${reset} Checking macOS App Store updates..."
+# mas upgrade 2>&1
+# echo "${green}==>${reset} Finished macOS App Store updates"
 
 ## Creating Dump File with hostname
 brew bundle dump --force --file="./${brewFileName}"
