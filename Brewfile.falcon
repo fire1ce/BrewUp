@@ -55,6 +55,7 @@ cask "logi-options-plus"
 cask "macmediakeyforwarder"
 cask "macupdater"
 cask "microsoft-auto-update"
+cask "microsoft-office"
 cask "microsoft-teams"
 cask "moonlight"
 cask "mqtt-explorer"
@@ -76,8 +77,6 @@ cask "vmware-fusion"
 cask "wireshark"
 cask "xquartz"
 cask "zoom"
-mas "1Password for Safari", id: 1569813296
-mas "AdGuard for Safari", id: 1440147259
 mas "Amphetamine", id: 937984704
 mas "Apple Configurator", id: 1037126344
 mas "AutoMute", id: 1118136179
