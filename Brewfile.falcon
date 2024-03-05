@@ -1,8 +1,6 @@
 tap "cloudflare/cloudflare"
 tap "homebrew/bundle"
-tap "homebrew/cask"
 tap "homebrew/cask-fonts"
-tap "homebrew/core"
 tap "rfidresearchgroup/proxmark3"
 tap "teamookla/speedtest"
 brew "ansible"
