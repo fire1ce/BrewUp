@@ -29,7 +29,6 @@ brew "wget"
 brew "wifi-password"
 brew "zbar"
 brew "zsh"
-brew "rfidresearchgroup/proxmark3/proxmark3", args: ["with-generic"]
 brew "teamookla/speedtest/speedtest"
 cask "1password"
 cask "alfred"
