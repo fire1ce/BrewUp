@@ -1,6 +1,5 @@
 tap "cloudflare/cloudflare"
 tap "homebrew/bundle"
-tap "homebrew/cask-fonts"
 tap "localsend/localsend"
 tap "rfidresearchgroup/proxmark3"
 tap "teamookla/speedtest"
