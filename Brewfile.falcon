@@ -54,7 +54,6 @@ cask "firefox"
 cask "folx"
 cask "font-fira-code-nerd-font"
 cask "freecad"
-cask "geekbench"
 cask "google-chrome"
 cask "hyperbackupexplorer"
 cask "insomnia"
@@ -75,11 +74,9 @@ cask "mqtt-explorer"
 cask "nordvpn"
 cask "obsidian"
 cask "openmtp"
-cask "openscad"
 cask "orcaslicer"
 cask "parallels"
 cask "plex"
-cask "prusaslicer"
 cask "radio-silence"
 cask "raspberry-pi-imager"
 cask "scroll-reverser"
@@ -100,7 +97,6 @@ mas "Amphetamine", id: 937984704
 mas "Apple Configurator", id: 1037126344
 mas "AutoMute", id: 1118136179
 mas "Brother P-touch Editor", id: 1453365242
-mas "Disk Speed Test", id: 425264550
 mas "Hidden Bar", id: 1452453066
 mas "Keynote", id: 409183694
 mas "LanScan", id: 472226235
