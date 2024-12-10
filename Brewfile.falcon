@@ -99,7 +99,6 @@ cask "visual-studio-code"
 cask "vlc"
 cask "wireshark"
 cask "xquartz"
-cask "yaak"
 cask "zoom"
 mas "Amphetamine", id: 937984704
 mas "Apple Configurator", id: 1037126344
