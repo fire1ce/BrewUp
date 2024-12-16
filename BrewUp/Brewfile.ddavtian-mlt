@@ -1,0 +1,2 @@
+tap "homebrew/bundle"
+brew "mas"
