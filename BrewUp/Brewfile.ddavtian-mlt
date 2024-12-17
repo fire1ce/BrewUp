@@ -1,5 +1,9 @@
+tap "hashicorp/tap"
 tap "homebrew/bundle"
 brew "mas"
+brew "mcfly"
+brew "hashicorp/tap/vault"
+cask "docker"
 mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
