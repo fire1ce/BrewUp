@@ -1,5 +1,6 @@
 tap "cloudflare/cloudflare"
 tap "homebrew/bundle"
+tap "homebrew/services"
 tap "localsend/localsend"
 tap "ramborogers/netventory"
 tap "rfidresearchgroup/proxmark3"
