@@ -44,7 +44,6 @@ brew "rfidresearchgroup/proxmark3/proxmark3", args: ["with-generic"]
 brew "snyk/tap/snyk"
 brew "teamookla/speedtest/speedtest"
 cask "1password"
-cask "adguard"
 cask "alfred"
 cask "android-platform-tools"
 cask "android-studio"
