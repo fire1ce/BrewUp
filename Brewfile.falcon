@@ -1,4 +1,3 @@
-tap "cloudflare/cloudflare"
 tap "homebrew/bundle"
 tap "homebrew/services"
 tap "localsend/localsend"
