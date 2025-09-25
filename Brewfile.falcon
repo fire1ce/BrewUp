@@ -109,11 +109,7 @@ mas "Hidden Bar", id: 1452453066
 mas "Keynote", id: 409183694
 mas "LanScan", id: 472226235
 mas "Letter Opener", id: 411897373
-mas "lire", id: 1482527526
 mas "Magnet", id: 441258766
-mas "Microsoft OneNote", id: 784801555
-mas "Microsoft Outlook", id: 985367838
-mas "Microsoft PowerPoint", id: 462062816
 mas "Say No to Notch", id: 1639306886
 mas "Telegram", id: 747648890
 mas "TestFlight", id: 899247664
@@ -182,11 +178,13 @@ vscode "tusaeff.vscode-iterm2-theme-sync"
 vscode "twxs.cmake"
 vscode "visualstudioexptteam.intellicode-api-usage-examples"
 vscode "visualstudioexptteam.vscodeintellicode"
+vscode "vscjava.migrate-java-to-azure"
 vscode "vscjava.vscode-gradle"
 vscode "vscjava.vscode-java-debug"
 vscode "vscjava.vscode-java-dependency"
 vscode "vscjava.vscode-java-pack"
 vscode "vscjava.vscode-java-test"
+vscode "vscjava.vscode-java-upgrade"
 vscode "vscjava.vscode-maven"
 vscode "wallabyjs.quokka-vscode"
 vscode "wallabyjs.wallaby-vscode"
