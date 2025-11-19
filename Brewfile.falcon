@@ -43,6 +43,7 @@ cask "1password"
 cask "alfred"
 cask "android-platform-tools"
 cask "android-studio"
+cask "antigravity"
 cask "arduino-ide"
 cask "autodesk-fusion"
 cask "balenaetcher"
@@ -113,7 +114,6 @@ mas "Keynote", id: 409183694
 mas "LanScan", id: 472226235
 mas "Letter Opener", id: 411897373
 mas "lire", id: 1482527526
-mas "Magnet", id: 441258766
 mas "Microsoft OneNote", id: 784801555
 mas "Microsoft Outlook", id: 985367838
 mas "Microsoft PowerPoint", id: 462062816
@@ -183,8 +183,6 @@ vscode "tabnine.tabnine-vscode"
 vscode "tamasfe.even-better-toml"
 vscode "tusaeff.vscode-iterm2-theme-sync"
 vscode "twxs.cmake"
-vscode "visualstudioexptteam.intellicode-api-usage-examples"
-vscode "visualstudioexptteam.vscodeintellicode"
 vscode "vscjava.migrate-java-to-azure"
 vscode "vscjava.vscode-gradle"
 vscode "vscjava.vscode-java-debug"
