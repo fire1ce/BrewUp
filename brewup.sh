@@ -8,6 +8,10 @@ if [ "$(arch)" = "arm64" ]; then
   export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:$PATH"
 fi
 
+## Suppress Homebrew auto-update and hints (updates handled by brew upgrade)
+export HOMEBREW_NO_AUTO_UPDATE=1
+export HOMEBREW_NO_ENV_HINTS=1
+
 ## checks if mas is installed, if not will install it
 if ! command -v mas >/dev/null 2>&1; then
   brew install mas
