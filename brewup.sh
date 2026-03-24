@@ -42,7 +42,7 @@ echo "${green}==>${reset} Finished brew updates"
 
 ## Mac Store Updates
 echo "${yellow}==>${reset} Checking macOS App Store updates..."
-mas upgrade
+mas upgrade || echo "${yellow}==>${reset} Warning: Mac App Store update failed (not signed in?)"
 echo "${green}==>${reset} Finished macOS App Store updates"
 
 ## Creating Dump File with hostname
