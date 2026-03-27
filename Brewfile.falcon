@@ -1,5 +1,6 @@
 tap "anomalyco/tap"
 tap "ramborogers/netventory"
+tap "sane-apps/tap"
 tap "snyk/tap"
 tap "teamookla/speedtest"
 tap "xykong/tap"
@@ -59,7 +60,6 @@ cask "arduino-ide"
 cask "autodesk-fusion"
 cask "balenaetcher"
 cask "bambu-studio"
-cask "bartender"
 cask "burp-suite-professional"
 cask "cursor"
 cask "cyberduck"
@@ -97,6 +97,7 @@ cask "postman"
 cask "prusaslicer"
 cask "raspberry-pi-imager"
 cask "raycast"
+cask "sane-apps/tap/sanebar"
 cask "scroll-reverser"
 cask "sdformatter"
 cask "segger-jlink"
@@ -133,7 +134,6 @@ mas "TestFlight", id: 899247664
 mas "WhatsApp", id: 310633997
 mas "Windows App", id: 1295203466
 mas "WireGuard", id: 1451685025
-mas "Xcode", id: 497799835
 mas "Yoink", id: 457622435
 vscode "adamhartford.vscode-base64"
 vscode "ahmadalli.vscode-nginx-conf"
