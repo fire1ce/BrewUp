@@ -29,6 +29,8 @@ It just runs few [Brew functionality](https://docs.brew.sh/) automatically:
 - Creating Updated [Brewfile](https://github.com/Homebrew/homebrew-bundle)
 - Pushing changes to Git
 
+If `brew bundle dump` drops existing `mas` entries, BrewUp restores the previous App Store section by default so Spotlight indexing issues do not get committed as false removals. To intentionally commit App Store removals, run with `BREWUP_ALLOW_MAS_REMOVALS=1`.
+
 ## Requirements
 
 - [Homebrew The missing package manager for macOS](https://brew.sh/)
