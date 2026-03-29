@@ -39,6 +39,10 @@ brew doctor || true
 echo "${green}==>${reset} Brew Doctor diagnostic finished."
 
 ## Brew packages update and cleanup
+echo "${yellow}==>${reset} Updating Homebrew metadata..."
+brew update-if-needed
+echo "${green}==>${reset} Homebrew metadata updated"
+
 echo "${yellow}==>${reset} Checking for brew updates..."
 brew upgrade
 brew cleanup -s || true
