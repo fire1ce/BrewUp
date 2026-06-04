@@ -83,7 +83,6 @@ cask "microsoft-teams"
 cask "moonlight"
 cask "nordvpn"
 cask "obsidian"
-cask "only-switch"
 cask "openmtp"
 cask "orcaslicer"
 cask "postman"
@@ -120,6 +119,7 @@ mas "lire", id: 1482527526
 mas "Microsoft OneNote", id: 784801555
 mas "Microsoft Outlook", id: 985367838
 mas "Microsoft PowerPoint", id: 462062816
+mas "Say No to Notch", id: 1639306886
 mas "Steam Link", id: 1246969117
 mas "Telegram", id: 747648890
 mas "TestFlight", id: 899247664
