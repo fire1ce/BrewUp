@@ -45,9 +45,9 @@ brew "wget"
 brew "wifi-password"
 brew "yt-dlp"
 brew "zsh"
-brew "anomalyco/tap/opencode"
-brew "snyk/tap/snyk"
-brew "teamookla/speedtest/speedtest"
+brew "anomalyco/tap/opencode", trusted: true
+brew "snyk/tap/snyk", trusted: true
+brew "teamookla/speedtest/speedtest", trusted: true
 cask "1password"
 cask "alfred"
 cask "android-platform-tools"
