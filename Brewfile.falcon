@@ -1,110 +1,208 @@
 tap "anomalyco/tap"
 tap "snyk/tap"
 tap "teamookla/speedtest"
+# Display directories as trees (with optional color/HTML output)
 brew "tree"
+# Automate deployment, configuration, and upgrading
 brew "ansible"
+# Resource monitor. C++ version and continuation of bashtop and bpytop
 brew "btop"
+# Cloudflare Tunnel client (formerly Argo Tunnel)
 brew "cloudflared"
+# Create and run Linux containers using lightweight virtual machines
 brew "container"
+# GNU File, Shell, and Text utilities
 brew "coreutils"
+# Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
+# Like neofetch, but much faster because written mostly in C
 brew "fastfetch"
+# Play, record, convert, and stream select audio and video codecs
 brew "ffmpeg"
+# CLI application for interacting with a Cloudflare account
 brew "flarectl"
+# GitHub command-line tool
 brew "gh"
+# Distributed revision control system
 brew "git"
+# Open source programming language to build simple/reliable/efficient software
 brew "go"
+# Improved top (interactive process viewer)
 brew "htop"
+# Tools and libraries to manipulate images in select formats
 brew "imagemagick"
+# CLI tool for searching and downloading app packages from the iOS App Store
 brew "ipatool"
+# Update of iperf: measures TCP, UDP, and SCTP bandwidth
 brew "iperf3"
+# Development kit for the Java programming language
 brew "openjdk"
+# Dex to Java decompiler
 brew "jadx"
+# Lightweight and flexible command-line JSON processor
 brew "jq"
+# List USB devices, just like the Linux lsusb command
 brew "lsusb"
+# Keep your Mac's application settings in sync
 brew "mackup"
+# Mac App Store command-line interface
 brew "mas"
+# Implementation of the Vulkan graphics and compute API on top of Metal
 brew "molten-vk"
+# Free (GNU) replacement for the Pico text editor
 brew "nano"
+# Utility for managing network connections
 brew "netcat"
+# Port scanning utility for large networks
 brew "nmap"
+# Open-source, cross-platform JavaScript runtime environment
 brew "node"
+# Execute binaries from Python packages in isolated environments
 brew "pipx"
+# Package compiler and linker metadata toolkit
 brew "pkgconf"
+# Python version management
 brew "pyenv"
+# QR Code generation
 brew "qrencode"
+# Utility that provides fast incremental file transfer
 brew "rsync"
+# CLI proxy to minimize LLM token consumption
 brew "rtk"
+# Rust toolchain installer
 brew "rustup"
+# Generate ASCII art with terminal, shell, and OS info
 brew "screenfetch"
+# Non-interactive SSH password auth
 brew "sshpass"
+# User interface to the TELNET protocol
 brew "telnet"
+# Simple TTY terminal I/O application
 brew "tio"
+# Terminal multiplexer
 brew "tmux"
+# Internet file retriever
 brew "wget"
+# Show the current WiFi network password
 brew "wifi-password"
+# Feature-rich command-line audio/video downloader
 brew "yt-dlp"
+# UNIX shell (command interpreter)
 brew "zsh"
+# The AI coding agent built for the terminal.
 brew "anomalyco/tap/opencode", trusted: true
+# Find & fix known vulnerabilities in open-source dependencies
 brew "snyk/tap/snyk", trusted: true
+# Ookla Speedtest
 brew "teamookla/speedtest/speedtest", trusted: true
+# Password manager that keeps all passwords secure behind one password
 cask "1password"
-cask "alfred"
+# Android SDK component
 cask "android-platform-tools"
+# Tools for building Android applications
 cask "android-studio"
+# Electronics prototyping platform
 cask "arduino-ide"
+# Integrated CAD, CAM, CAE, and PCB software
 cask "autodesk-fusion"
+# Tool to flash OS images to SD cards & USB drives
 cask "balenaetcher"
+# Web security testing toolkit
 cask "burp-suite-professional"
+# OpenAI's coding agent that runs in your terminal
 cask "codex"
-cask "cursor"
-cask "cyberduck"
+# Browser for SQLite databases
 cask "db-browser-for-sqlite"
+# Voice and text chat software
 cask "discord"
+# App to build and share containerised applications and microservices
 cask "docker-desktop"
+# Multi-platform multi-messaging app
 cask "ferdium"
+# Web browser
 cask "firefox"
+# Download manager with a torrent client
 cask "folx"
 cask "font-fira-code-nerd-font"
+# 2D and 3D game engine
 cask "godot"
+# Web browser
 cask "google-chrome"
+# Backup data from a Synology NAS
 cask "hyperbackupexplorer"
+# iPhone management application
 cask "imazing"
+# HTTP and GraphQL Client
 cask "insomnia"
+# System monitoring app
 cask "istat-menus"
+# Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
+# File archiver
 cask "keka"
+# Utility that shows the latest app updates
 cask "latest"
+# Open-source cross-platform alternative to AirDrop
 cask "localsend"
+# Software for Logitech devices
 cask "logi-options+"
+# Provides updates to various Microsoft products
 cask "microsoft-auto-update"
+# Office suite
 cask "microsoft-office"
+# Meet, chat, call, and collaborate in just one place
 cask "microsoft-teams"
+# GameStream client
 cask "moonlight"
+# VPN client for secure internet access and private browsing
 cask "nordvpn"
+# Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
+# Android file transfer
 cask "openmtp"
+# G-code generator for 3D printers
 cask "orcaslicer"
+# Collaboration platform for API development
 cask "postman"
+# Imaging utility to install operating systems to a microSD card
 cask "raspberry-pi-imager"
+# Control your tools with a few keystrokes
 cask "raycast"
+# Media key forwarder for Music (iTunes) and Spotify
 cask "reflex-app"
+# Tool to reverse the direction of scrolling
 cask "scroll-reverser"
+# Tool to format memory cards complying with the SD File System spec
 cask "sdformatter"
+# Software and Documentation pack for Segger J-Link debug probes
 cask "segger-jlink"
+# Team communication and collaboration software
 cask "slack"
+# Music streaming service
 cask "spotify"
+# Video game digital distribution service
 cask "steam"
+# Real time file synchronisation software
 cask "syncthing-app"
+# Sync and backup service to Synology NAS drives
 cask "synology-drive"
+# Music streaming service with high fidelity sound and hi-def video quality
 cask "tidal"
+# Hierarchical note taking application
 cask "trilium-notes"
+# Free and open-source OpenVPN client
 cask "tunnelblick"
+# Virtual machines UI using QEMU
 cask "utm"
+# Open-source code editor
 cask "visual-studio-code"
+# Multimedia player
 cask "vlc"
+# Network protocol analyzer
 cask "wireshark-app"
+# Open-source version of the X.Org X Window System
 cask "xquartz"
+# Video communication and virtual meeting platform
 cask "zoom"
 mas "Amphetamine", id: 937984704
 mas "Apple Configurator", id: 1037126344
